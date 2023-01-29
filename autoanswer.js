@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const prompt = require('prompt-sync')({
 	sigint: true
 });
-
+//This bot auto answers correctly, unless the answers are randomized
 const quizid = prompt("Enter quizID: ");
 const pin = prompt("Enter pin: ");
 const user = prompt("Username: ");
